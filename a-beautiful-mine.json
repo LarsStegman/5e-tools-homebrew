@@ -1,0 +1,35 @@
+{
+	"fileType": "encounter",
+	"siteVersion": "1.154.2",
+	"p": [
+		{
+			"count": 4,
+			"level": 1
+		}
+	],
+	"l": {
+		"items": [
+			{
+				"h": "ghost_mm",
+				"c": 1
+			},
+			{
+				"h": "giant%20rat_mm",
+				"c": 1
+			},
+			{
+				"h": "grell_mm",
+				"c": 1
+			},
+			{
+				"h": "icewind%20kobold_idrotf",
+				"c": 1
+			}
+		],
+		"sources": [
+			"MM",
+			"IDRotF"
+		]
+	},
+	"a": false
+}

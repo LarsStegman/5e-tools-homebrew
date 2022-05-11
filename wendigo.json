@@ -1,0 +1,139 @@
+{
+    "name": "Wendigo",
+    "size": [
+        "M"
+    ],
+    "type": "monstrosity",
+    "source": "IcewindDaleLars",
+    "alignment": [
+        "C",
+        "E"
+    ],
+    "ac": [
+        {
+            "ac": 16,
+            "from": [
+                "natural armor"
+            ]
+        }
+    ],
+    "hp": {
+        "formula": "8d8 + 16",
+        "average": 52
+    },
+    "speed": {
+        "walk": 0
+    },
+    "str": 15,
+    "dex": 17,
+    "con": 14,
+    "int": 11,
+    "wis": 10,
+    "cha": 16,
+    "passive": 10,
+    "cr": "3",
+    "shortName": true,
+    "senses": [
+        "darkvision 60 ft."
+    ],
+    "senseTags": [
+        "D"
+    ],
+    "languages": [
+        "Common"
+    ],
+    "languageTags": [
+        "C"
+    ],
+    "vulnerable": [
+        "fire"
+    ],
+    "resist": [
+        "necrotic"
+    ],
+    "immune": [
+        "cold",
+        "poison"
+    ],
+    "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "poisoned"
+    ],
+    "trait": [
+        {
+            "name": "Ambusher",
+            "entries": [
+                "The wendigo has advantage on attack rolls against any creature it has surprised."
+            ]
+        },
+        {
+            "name": "Mimicry (Raven)",
+            "entries": [
+                "The wendigo can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {@dc 14} Wisdom ({@skill Insight}) check."
+            ]
+        },
+        {
+            "name": "Pounce",
+            "entries": [
+                "If the wendigo moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the wendigo can make one bite attack against it as a bonus action."
+            ]
+        },
+        {
+            "name": "Masks of the Wild",
+            "entries": [
+                "The wendigo can attempt to hide even when it is only lightly obscured by foliage, heavy rain, falling snow, mist, or other natural phenomena."
+            ]
+        }
+    ],
+    "traitTags": [
+        "Ambusher",
+        "Pounce"
+    ],
+    "conditionInflict": [
+        "prone"
+    ],
+    "action": [
+        {
+            "name": "Multiattack",
+            "entries": [
+                "The wending makes two attacks: one with its bite and one with its claws."
+            ]
+        },
+        {
+            "name": "Bite",
+            "entries": [
+                "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. On a hit the target must succeed on a {@dc 13} Constitution saving throw or take 9 ({@damage 2d8}) necrotic damage."
+            ]
+        },
+        {
+            "name": "Claws",
+            "entries": [
+                "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+            ]
+        }
+    ],
+    "damageTags": [
+        "N",
+        "P",
+        "S"
+    ],
+    "miscTags": [
+        "MW"
+    ],
+    "actionTags": [
+        "Multiattack"
+    ],
+    "fluff": {
+        "entries": [
+            "A horrific creature formed by necessity driven hunger gone mad.",
+            "In the vast expanses of the Boreal Realms, there exists legends of the indigenous people. Legends to explain ideas greater than themselves. Legends to pass lessons of life from elder to minor. Stories of heroes, and cryptids battling in a never ceasing battles of good and evil.",
+            "Of these legends, one of the most fearsome of these cryptids is the Dreaded Wendigo. A spirit of cannibalism that possesses the weak of will. When tribesmen are isolated in their homes, trapped by the deep snows and treacherous cold, and the scarcity of food seeps deeper into the soul, the ravenous nature of the Wendigo begins to take hold."
+        ]
+    },
+    "tokenUrl": "https://i.pinimg.com/originals/12/ce/f7/12cef76db245e38d76f751e25a0f15f4.png",
+    "environment": [
+        "arctic",
+        "forest"
+    ]
+}
